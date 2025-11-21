@@ -11,20 +11,15 @@
         <h1 clas="header">To Do List</h1>
     </nav>
     <main>
-        <div class="container">
+        <div class="container" >
             <h1>My Tasks</h1>
+            <input type="text" id="txtBox" class="taskInput" placeholder="Enter your task here">
             <section class="taskBtn">
                 <span class="btnSpan">
-                    <button  class="btn" onclick="">Add Task</button>
-                </span>
-                <span class="btnSpan">
-                    <button class="btn" onclick="">Remove a Task</button>
-                </span>
-                <span class="btnSpan">
-                    <button class="btn" onclick="">Update Task</button>
+                    <button  class="btn" onclick="addtask()">Add Task</button>
                 </span>
             </section>
-            <section class="taskList">
+            <section class="taskList" id="lst-Container">
 
             </section>
         </div>
